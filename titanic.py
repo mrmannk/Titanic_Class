@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier
 dtc=DecisionTreeClassifier()
 # load the dataset chabge paths according to your file location
-titanic_train = pd.read_csv(test.csv) 
-titanic_test = pd.read_csv("F:/Mann/Codes/project/test.csv")
+titanic_train = pd.read_csv('train.csv') 
+titanic_test = pd.read_csv('test.csv')
 # first 5 rows of the dataset
 titanic_train.head()
 # no of rows and columns
